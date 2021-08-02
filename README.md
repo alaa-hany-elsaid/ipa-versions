@@ -1,2 +1,2 @@
-# get-ipa-versions-info
+# get ipa versions
 Get Versions of App in Appstore by Id 
