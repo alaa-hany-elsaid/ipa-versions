@@ -1,7 +1,7 @@
-# get ipa versions
+# Get Ipa Versions
 Get Versions of App in Appstore by Id 
 
-## usage 
+## Usage 
 ```
 <?php 
 require_once("get_versions_info.php");
