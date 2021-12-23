@@ -1,6 +1,6 @@
 <?php
 function getIpaVersionsWithId( $id ){
-    $url = "https://tools.lancely.tech/apple/app-version/US/" . $argv[1];
+    $url = "https://tools.lancely.tech/apple/app-version/US/" . $id;
     $pattern = "/appVersion:(.*)\}\],\s?/s" ;
     $allDataAsJson = Null ;
     if(preg_match($pattern,  file_get_contents($url) , $matches) and (!empty($matches[1]))){
